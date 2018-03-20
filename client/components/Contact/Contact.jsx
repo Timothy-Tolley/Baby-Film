@@ -12,10 +12,11 @@ class Contact extends React.Component {
           <h2 className = 'contact-header'> - CONTACT - </h2>
         </ScrollableAnchor>
         <div className = 'contact-form'>
+          <p>MARION PREBBLE </p>
           <a href="mailto:webmaster@example.com" className = 'email-link'>
-            <p> E: webmaster@example.com </p>
+            <p> E: marionshortt@gmail.com </p>
           </a>
-          <p> P: +64210044331</p>
+          <p> M: (+64) 22 1559 027</p>
         </div>
       </div>
     )

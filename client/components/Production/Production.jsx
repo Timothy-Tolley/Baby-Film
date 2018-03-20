@@ -18,6 +18,9 @@ class Production extends React.Component {
           <p className = 'production-links'> - The Director </p>
           <p className = 'production-links'> - The Producers </p>
           <p className = 'production-links'> - Credits </p>
+          <a href="/docs/press-kit.pdf" download="baby-press-kit" className = 'press-kit-link'>
+            <p className = 'production-links'> - PressKit </p>
+          </a>
         </div>
       </div>
     )

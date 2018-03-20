@@ -32,3 +32,8 @@
   justify-content: center;
   padding: 20px;
 }
+
+.press-kit-link {
+  text-decoration: none;
+  color: white;
+}

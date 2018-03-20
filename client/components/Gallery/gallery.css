@@ -1,0 +1,18 @@
+.gallery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color:white;
+  justify-content: center;
+}
+
+.gallery-header{
+  width: 100%;
+  text-align: center;
+}
+
+.image-gallery {
+  width: 95%;
+  align-self: center;
+  padding: 20px;
+}

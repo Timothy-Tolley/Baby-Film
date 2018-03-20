@@ -6,6 +6,7 @@ import './home.css'
 import About from '../About/About'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import Gallery from '../Gallery/Gallery'
 import Contact from '../Contact/Contact'
 import Synopsis from '../Synopsis/Synopsis'
 import BulkHead from '../BulkHead/BulkHead'
@@ -19,6 +20,7 @@ class Home extends React.Component {
         <BulkHead />
         <About />
         <Synopsis />
+        <Gallery />
         <Production />
         <Contact />
         <Footer />
