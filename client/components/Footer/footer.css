@@ -1,0 +1,11 @@
+.footer-container {
+  color: white;
+  font-size: 0.6rem;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-text {
+  text-justify: distribute;
+  padding: 10px;
+}

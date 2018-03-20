@@ -1,0 +1,22 @@
+.synopsis-container {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.synopsis-header {
+  color: white;
+  padding: 40px;
+}
+
+.synopsis-text {
+  width: 65%;
+  font-size: 1.3rem;
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-style: oblique;
+}
