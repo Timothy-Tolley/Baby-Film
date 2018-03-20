@@ -1,0 +1,25 @@
+.contact-container {
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.contact-header {
+  padding: 20px;
+}
+
+.contact-form {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+
+}
+
+.email-link{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}

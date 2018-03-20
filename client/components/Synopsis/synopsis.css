@@ -1,15 +1,15 @@
 .synopsis-container {
   width: 100%;
-  height: 300px;
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
 }
 
 .synopsis-header {
   color: white;
-  padding: 40px;
+  padding: 20px;
 }
 
 .synopsis-text {
@@ -19,4 +19,5 @@
   align-items: center;
   text-align: center;
   font-style: oblique;
+  padding: 30px;
 }

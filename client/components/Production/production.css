@@ -10,7 +10,7 @@
 .production-text-cont {
   width: 40%;
   Height: 100%;
-  background-color: rgba(192,192,192, 0.5);
+  background-color: rgba(110, 109, 109, 0.5);
   z-index: 1;
   color: white;
   display: flex;

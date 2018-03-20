@@ -3,8 +3,10 @@ import {connect} from 'react-redux'
 
 import './home.css'
 
+import About from '../About/About'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import Contact from '../Contact/Contact'
 import Synopsis from '../Synopsis/Synopsis'
 import BulkHead from '../BulkHead/BulkHead'
 import Production from '../Production/Production'
@@ -15,10 +17,10 @@ class Home extends React.Component {
       <div className = 'home-container'>
         <Header />
         <BulkHead />
+        <About />
         <Synopsis />
         <Production />
-        <h1 className = 'home-header'> BABY </h1>
-        <h1 className = 'home-header'>  - Short Film </h1>
+        <Contact />
         <Footer />
       </div>
     )

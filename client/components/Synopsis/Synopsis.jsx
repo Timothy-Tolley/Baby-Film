@@ -1,5 +1,6 @@
 import React from 'react'
 import {connect} from 'react-redux'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 import './synopsis.css'
 
@@ -7,7 +8,9 @@ class Synopsis extends React.Component {
   render () {
     return (
       <div className = 'synopsis-container'>
-        <h2 className = 'synopsis-header'> - SYNOPSIS -  </h2>
+        <ScrollableAnchor id={'synopsis'}>
+          <h2 className = 'synopsis-header'> - SYNOPSIS -  </h2>
+        </ScrollableAnchor>
         <p className = 'synopsis-text'>
           {"Isabelle is determined not to spend her 65th birthday alone. When her daughter doesn't turn up for dinner, Isabelle invites herself into the home of her newneighbour, Leisha."}
           <br/>
