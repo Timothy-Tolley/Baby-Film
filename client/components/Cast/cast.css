@@ -1,0 +1,25 @@
+.cc-page-container{
+  color: white; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cc-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.crew-container {
+  padding: 40px;
+  width: 40%;
+  align-content: center;
+  text-align: left;
+}
+
+.cast-container{
+  padding: 40px;
+  width: 40%;
+  text-align: right;
+}
