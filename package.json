@@ -4,7 +4,7 @@
   "description": "A Website For the Baby Short Film",
   "main": "server/index.js",
   "scripts": {
-    "start": "build && node server",
+    "start": "node server/index.js",
     "build": "webpack --config ./client/webpack.config.js",
     "dev": "nodemon --watch server/index.js & yarn build --watch",
     "test": "jest --watch --noStackTrace"
