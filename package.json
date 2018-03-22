@@ -8,7 +8,7 @@
     "build": "webpack --config ./client/webpack.config.js",
     "dev": "nodemon --watch server/index.js & yarn build --watch",
     "test": "jest --watch --noStackTrace",
-    "postinstall": "build"
+    "postinstall": "webpack"
   },
   "repository": {
     "type": "git",
