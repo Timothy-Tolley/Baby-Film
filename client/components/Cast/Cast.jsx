@@ -2,14 +2,14 @@ import React from 'react'
 import {connect} from 'react-redux'
 
 import './cast.css'
-import Header from '../Header/Header'
+import DetachedHead from '../DetachedHead/DetachedHead'
 import {crew, production, cast} from '../../data/data.js'
 
 class Cast extends React.Component {
   render () {
     return (
       <div className = 'cc-page-container'>
-        <Header />
+        <DetachedHead />
         <div className = 'cc-container'>
           <div className = 'cast-container'>
             <h2> CAST </h2>

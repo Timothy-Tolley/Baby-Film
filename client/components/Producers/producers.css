@@ -1,0 +1,33 @@
+.producer-container {
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+}
+
+.producer-header {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.producer-text {
+  width: 40%;
+  text-align: center;
+}
+
+.producer-name {
+  width: 100%;
+  text-align: center;
+}
+
+.producers-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.producer-image {
+  width: 50%;
+  border-radius: 50%;
+}

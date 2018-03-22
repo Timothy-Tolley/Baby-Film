@@ -2,13 +2,13 @@ import React from 'react'
 import {connect} from 'react-redux'
 
 import './faqs.css'
-import Header from '../Header/Header'
+import DetachedHead from '../DetachedHead/DetachedHead'
 
 class Faqs extends React.Component {
   render () {
     return (
       <div className = 'faqs-container'>
-        <Header />
+        <DetachedHead />
         <h2 className = 'faq-header'>  - FAQs - </h2>
         <div className = 'faq-texts-container' >
           <br/>

@@ -1,11 +1,9 @@
 .faq-text {
-  color: white;
   text-align: center;
   width: 100%;
 }
 
 .faq-question {
-  color: white;
   text-align: center;
   width: 100%;
 }
@@ -23,7 +21,6 @@
 }
 
 .faq-header{
- color: white; 
  width: 100%;
  text-align: center;
 }

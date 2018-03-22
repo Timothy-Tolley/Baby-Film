@@ -8,13 +8,13 @@
 }
 
 .logo-image-cont {
-  width: 15%;
-  height: 100%;
+ width: 15%;
+ height: 100%;
+}
+
+.logo-image {
+  width: 100%;
  }
- 
- .logo-image {
-   width: 100%;
-  } 
 
 .header-link {
   font-size: 1.2rem;

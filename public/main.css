@@ -1,6 +1,7 @@
 * {
   margin: 0; 
   border: 0;
+  color: white;
 }
 
 body {
@@ -9,6 +10,7 @@ body {
   font-family: 'Roboto Condensed', 'sans-serif';
   font-weight: lighter;
   background-color: black;
+  color: white;
 }
 
 .page {

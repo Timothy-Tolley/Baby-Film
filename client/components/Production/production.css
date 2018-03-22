@@ -12,7 +12,6 @@
   Height: 100%;
   background-color: rgba(110, 109, 109, 0.5);
   z-index: 1;
-  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,19 +22,16 @@
   align-items: center;
   padding: 20px;
   text-decoration: none;
-  color: white;
 }
 
 .production-header {
   font-size: 2rem;
   z-index: 2;
   width: 100%;
-  color: white;
   justify-content: center;
   padding: 20px;
 }
 
 .press-kit-link {
   text-decoration: none;
-  color: white;
 }

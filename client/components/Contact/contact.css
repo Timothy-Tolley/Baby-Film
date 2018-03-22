@@ -1,5 +1,4 @@
 .contact-container {
-  color:white;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -20,6 +19,5 @@
 
 .email-link{
   text-decoration: none;
-  color: white;
   padding: 20px;
 }
