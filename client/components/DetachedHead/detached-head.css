@@ -21,3 +21,35 @@
   text-decoration: none;
   border-bottom: none;
 }
+
+@media only screen and (max-width: 750px) {
+  .det-header-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .det-header-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .det-header-link {
+    font-size: 1rem;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .det-header-link {
+    font-size: 0.8rem;
+    text-decoration: none;
+    border-bottom: none;
+  }
+}
