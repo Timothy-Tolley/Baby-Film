@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 
 import './director.css'
 import DetachedHead from '../DetachedHead/DetachedHead'
@@ -27,4 +26,4 @@ class Director extends React.Component {
   }
 }
 
-export default connect()(Director)
+export default Director

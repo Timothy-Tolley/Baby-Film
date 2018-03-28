@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 
 import './footer.css'
 
@@ -22,4 +21,4 @@ class Footer extends React.Component {
   }
 }
 
-export default connect()(Footer)
+export default Footer

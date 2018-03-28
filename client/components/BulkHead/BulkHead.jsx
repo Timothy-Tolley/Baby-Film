@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 
 import './bulk-head.css'
 
@@ -13,4 +12,4 @@ class BulkHead extends React.Component {
   }
 }
 
-export default connect()(BulkHead)
+export default BulkHead

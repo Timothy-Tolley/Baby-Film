@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 
 import './detached-head.css'
@@ -28,4 +27,4 @@ class DetachedHead extends React.Component {
   }
 }
 
-export default connect()(DetachedHead)
+export default DetachedHead

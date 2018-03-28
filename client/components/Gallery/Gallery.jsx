@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 import ImageGallery from 'react-image-gallery'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
@@ -71,4 +70,4 @@ class Gallery extends React.Component {
   }
 }
 
-export default connect()(Gallery)
+export default Gallery

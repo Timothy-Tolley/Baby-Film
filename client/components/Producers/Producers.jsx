@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 
 import './producers.css'
 import DetachedHead from '../DetachedHead/DetachedHead'
@@ -33,4 +32,4 @@ class Producers extends React.Component {
   }
 }
 
-export default connect()(Producers)
+export default Producers

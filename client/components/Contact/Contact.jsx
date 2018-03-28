@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 import './contact.css'
@@ -23,4 +22,4 @@ class Contact extends React.Component {
   }
 }
 
-export default connect()(Contact)
+export default Contact

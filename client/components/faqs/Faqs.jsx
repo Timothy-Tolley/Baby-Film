@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 
 import './faqs.css'
 import DetachedHead from '../DetachedHead/DetachedHead'
@@ -38,4 +37,4 @@ class Faqs extends React.Component {
   }
 }
 
-export default connect()(Faqs)
+export default Faqs

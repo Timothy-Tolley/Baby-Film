@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 
 import './cast.css'
 import DetachedHead from '../DetachedHead/DetachedHead'
@@ -40,4 +39,4 @@ class Cast extends React.Component {
   }
 }
 
-export default connect()(Cast)
+export default Cast

@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
@@ -36,4 +35,4 @@ class Production extends React.Component {
   }
 }
 
-export default connect()(Production)
+export default Production

@@ -1,5 +1,4 @@
 import React from 'react'
-import {connect} from 'react-redux'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 import './synopsis.css'
@@ -21,4 +20,4 @@ class Synopsis extends React.Component {
   }
 }
 
-export default connect()(Synopsis)
+export default Synopsis
