@@ -29,9 +29,28 @@
   z-index: 2;
   width: 100%;
   justify-content: center;
-  padding: 20px;
+  padding: 5%;
 }
 
 .press-kit-link {
   text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .production-links {
+      font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .production-links {
+      font-size: 1.2rem;
+      align-items: space-between;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .production-header {
+      font-size: 1rem;
+  }
 }
