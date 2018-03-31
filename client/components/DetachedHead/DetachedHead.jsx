@@ -14,7 +14,7 @@ class DetachedHead extends React.Component {
           <p className = 'det-header-link'> GALLERY </p>
         </Link>
         <Link to = {'/'} className = 'det-logo-image-cont'>
-          <img src = '/images/baby-det-logo-white.png' className = 'det-logo-image'/>
+          <img src = '/images/baby-logo-white.png' className = 'det-logo-image'/>
         </Link>
         <Link to='/#production' className = 'det-header-link'>
           <p className = 'det-header-link'> PRODUCTION </p>
