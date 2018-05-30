@@ -22,3 +22,7 @@
   text-decoration: none;
   padding: 20px;
 }
+
+.email-link-text:hover{
+  color: orange;
+}

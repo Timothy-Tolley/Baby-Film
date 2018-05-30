@@ -13,7 +13,7 @@ class Contact extends React.Component {
         <div className = 'contact-form'>
           <p>MARION PREBBLE </p>
           <a href="mailto:marionshortt@gmail.com" className = 'email-link'>
-            <p> E: marionshortt@gmail.com </p>
+            <p className = 'email-link-text'> E: marionshortt@gmail.com </p>
           </a>
           <p> M: (+64) 22 1559 027</p>
         </div>

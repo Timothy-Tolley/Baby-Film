@@ -13,12 +13,12 @@ class Gallery extends React.Component {
       slideOnThumbnailHover: false,
       showBullets: false,
       infinite: true,
-      showThumbnails: true,
+      showThumbnails: false,
       showFullscreenButton: true,
       showGalleryFullscreenButton: true,
       showPlayButton: false,
       showGalleryPlayButton: false,
-      showNav: true,
+      showNav: false,
       thumbnailPosition: 'left'
     }
   }
