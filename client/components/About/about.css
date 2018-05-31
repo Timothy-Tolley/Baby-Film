@@ -1,38 +1,37 @@
 .about-container {
-  width: 100%;
-  height: 400px;
-  margin: 0px;
-  border: 0px;
+ background-image: url('/images/leisha.png');
+ height: 750px; 
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ display: flex;
+ flex-direction: row;
+}
+
+.about-content-cont {
+  width: 50%;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: flex-end;
-  background-image: url('/images/leisha.jpg');
-  background-size: cover;
 }
 
-.about-logo {
-  width: 100%;
-  padding-left: 0px;
+.synopsis-header {
+  width: 50%;
+  align-self: flex-end;
+  font-size: 40px;
+  font-weight: 700;
+  margin-right: 40px;
+  margin-top: 120px;
+  color: #336699;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
 }
 
-.about-text {
-  background-color:  rgba(110, 109, 109, 0.5);
-  z-index: 1;
-  width:30%;
-  height: 100%;
-  padding-left: 20px;
-  font-size: 1.1rem;
-}
-
-@media only screen and (max-width: 600px) {
-  .about-container {
-      height: 200px;
-  }
-}
-
-@media only screen and (max-width: 330px) {
-  .about-text {
-      font-size: 1rem;
-  }
+.synopsis-text {
+  width: 50%;
+  align-self: flex-end;
+  font-size: 17px;
+  margin-right: 40px;
+  margin-top: 10px;
 }

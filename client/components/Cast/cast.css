@@ -15,10 +15,16 @@
   width: 40%;
   align-content: center;
   text-align: left;
+
 }
 
 .cast-container{
   padding: 40px;
   width: 40%;
   text-align: right;
+
+}
+
+.cast-text {
+  color: black;
 }

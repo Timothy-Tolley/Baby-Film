@@ -1,11 +1,13 @@
 .faq-text {
   text-align: center;
   width: 100%;
+  color: black;
 }
 
 .faq-question {
   text-align: center;
   width: 100%;
+  color: black;
 }
 
 .faqs-container {
@@ -13,6 +15,7 @@
  display: flex;
  flex-direction: column;
  align-content: center;
+ overflow: auto;
 }
 
 .faq-texts-container{
@@ -23,9 +26,14 @@
 .faq-header{
  width: 100%;
  text-align: center;
+ color: black;
 }
 
 .faq-blog-link{
-  color:grey;
-  text-decoration: none;
+  text-decoration: underline;
+  color: black;
+}
+
+.faq-blog-link:hover{
+  color: lightgray;
 }

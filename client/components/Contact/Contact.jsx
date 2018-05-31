@@ -7,15 +7,25 @@ class Contact extends React.Component {
   render () {
     return (
       <div className = 'contact-container'>
-        <ScrollableAnchor id={'contact'}>
-          <h2 className = 'contact-header'> - CONTACT - </h2>
-        </ScrollableAnchor>
-        <div className = 'contact-form'>
-          <p>MARION PREBBLE </p>
-          <a href="mailto:marionshortt@gmail.com" className = 'email-link'>
-            <p className = 'email-link-text'> E: marionshortt@gmail.com </p>
-          </a>
-          <p> M: (+64) 22 1559 027</p>
+        <div className = 'contact-content-cont'>
+        </div>
+        <div className = 'contact-content-cont'>
+          <ScrollableAnchor id = 'contact'>
+            <h2 className = 'contact-header'>
+                CONTACT
+            </h2>
+          </ScrollableAnchor>
+          <div className = 'contact-text-cont'>
+            <p>MARION PREBBLE </p>
+
+            <p className = 'email-link-text'>
+             E:
+              <a href="mailto:marionshortt@gmail.com" className = 'email-link'> marionshortt@gmail.com
+              </a>
+            </p>
+
+            <p> M: (+64) 22 1559 027</p>
+          </div>
         </div>
       </div>
     )

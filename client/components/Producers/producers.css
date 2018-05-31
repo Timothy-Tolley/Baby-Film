@@ -9,25 +9,41 @@
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  color: black;
+  letter-spacing: 1px;
+}
+
+.producer-text-cont {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
 }
 
 .producer-text {
-  width: 40%;
-  text-align: center;
+  text-align: left;
+  color: black;
 }
 
 .producer-name {
   width: 100%;
-  text-align: center;
+  text-align: left;
+  color: black;
+  letter-spacing: 1px;
 }
 
 .producers-row{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
 .producer-image {
-  width: 50%;
-  border-radius: 50%;
+  width: 40%;
+  align-self: center;
+}
+
+.producer-text-row {
+  margin-left: 5%;
+  width: 90%;
 }

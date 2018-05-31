@@ -1,0 +1,70 @@
+.trailer-container {
+  background-image: url('/images/leisha-remembering-connor.png');
+  height: 750px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.trailer-content-cont {
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+}
+
+.trailer-header {
+ width: 40%;
+ align-self: center;
+ font-size: 40px;
+ font-weight: 700;
+ margin-top: 40%;
+ margin-left: 15%;
+ text-align: center;
+ color: #336699;
+ font-family: 'Montserrat', sans-serif;
+ letter-spacing: 1px;
+}
+
+.trailer-button {
+  width: 35%;
+  font-size: 25px;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 15%;
+  align-self: center;
+  padding: 5px;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center
+}
+
+.trailer-button:hover {
+  color: black;
+}
+
+.trailer-main {
+  align-content: center
+}
+
+.play-icon {
+  content: url('/images/play-white.png');
+  max-width: 20%;
+  margin-right: 5px;
+}
+
+.trailer-button:hover .play-icon{
+  content: url('/images/play-black.png');
+}
+
+.trailer-button:hover .button-text {
+  color: black;
+}
+
+.button-text {
+  align-self: center;
+}

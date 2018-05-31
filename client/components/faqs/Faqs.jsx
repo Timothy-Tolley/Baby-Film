@@ -1,14 +1,12 @@
 import React from 'react'
 
 import './faqs.css'
-import DetachedHead from '../DetachedHead/DetachedHead'
 
 class Faqs extends React.Component {
   render () {
     return (
       <div className = 'faqs-container'>
-        <DetachedHead />
-        <h2 className = 'faq-header'>  - FAQs - </h2>
+        <h2 className = 'faq-header'>  FAQs </h2>
         <div className = 'faq-texts-container' >
           <br/>
           <h3 className = 'faq-question'> Where did the story come from? </h3>
