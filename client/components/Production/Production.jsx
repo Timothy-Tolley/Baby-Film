@@ -2,7 +2,7 @@ import React from 'react'
 import Modal from 'react-responsive-modal'
 
 import './production.css'
-import Faqs from '../Faqs/Faqs'
+import Faqs from '../faqs/Faqs'
 import Cast from '../Cast/Cast'
 import Gallery from '../Gallery/Gallery'
 import Director from '../Director/Director'
