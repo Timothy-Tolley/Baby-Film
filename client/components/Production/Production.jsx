@@ -2,7 +2,7 @@ import React from 'react'
 import Modal from 'react-responsive-modal'
 
 import './production.css'
-// import Faqs from '../Faqs/Faqs'
+import Faqs from '../Faqs/Faqs'
 import Cast from '../Cast/Cast'
 import Gallery from '../Gallery/Gallery'
 import Director from '../Director/Director'
@@ -74,7 +74,7 @@ class Production extends React.Component {
             <Producers />
           </Modal>
           <Modal open={this.state.faqs} onClose={this.onCloseModal} center>
-            {/* <Faqs /> */}
+            <Faqs />
           </Modal>
           <Modal open={this.state.gallery} onClose={this.onCloseModal} center>
             <Gallery />
