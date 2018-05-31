@@ -3,7 +3,7 @@ import {Route} from 'react-router-dom'
 
 import Home from './Home/Home'
 import Cast from './Cast/Cast'
-import Faqs from './faqs/Faqs'
+import Faqs from './Faqs/Faqs'
 import Director from './Director/Director'
 import Producers from './Producers/Producers'
 

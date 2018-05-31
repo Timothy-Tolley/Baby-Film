@@ -1,28 +1,47 @@
 .contact-container {
+  background-image: url('/images/isabelle-dinner.jpg');
+  height: 750px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   display: flex;
-  flex-direction: column;
-  align-content: center;
-  text-align: center;
-  width: 100%;
+  flex-direction: row;
+}
+
+.contact-content-cont {
+ width: 50%;
+ display: flex;
+ flex-direction: column;
 }
 
 .contact-header {
-  padding: 20px;
-  font-size: 2rem;
+ width: 40%;
+ align-self: flex-end;
+ font-size: 40px;
+ font-weight: 700;
+ margin-right: 40px;
+ margin-top: 40px;
+ color: #336699;
+ font-family: 'Montserrat', sans-serif;
+ letter-spacing: 1px;
 }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  font-size: 1.5rem;
+.contact-text-cont {
+ width: 40%;
+ align-self: flex-end;
+ margin-right: 40px;
+ margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ font-size: 22px;
 }
 
-.email-link{
+.email-link {
   text-decoration: none;
-  padding: 20px;
 }
 
-.email-link-text:hover{
-  color: orange;
+.email-link:hover {
+  color: #336699;
 }

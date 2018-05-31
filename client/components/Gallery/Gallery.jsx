@@ -13,7 +13,7 @@ class Gallery extends React.Component {
       slideOnThumbnailHover: false,
       showBullets: false,
       infinite: true,
-      showThumbnails: false,
+      showThumbnails: true,
       showFullscreenButton: true,
       showGalleryFullscreenButton: true,
       showPlayButton: false,
@@ -49,7 +49,7 @@ class Gallery extends React.Component {
     return (
       <div className = 'gallery-container'>
         <ScrollableAnchor id={'gallery'}>
-          <h2 className = 'gallery-header'> - GALLERY - </h2>
+          <h2 className = 'gallery-header'> GALLERY </h2>
         </ScrollableAnchor>
         <ImageGallery
           items={images}

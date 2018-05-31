@@ -8,6 +8,8 @@
 .gallery-header{
   width: 100%;
   text-align: center;
+  letter-spacing: 1px;
+  color: black;
 }
 
 .image-gallery {
