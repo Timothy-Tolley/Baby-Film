@@ -68,3 +68,27 @@
 .button-text {
   align-self: center;
 }
+
+@media (max-width:450px) {
+  .trailer-main {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin: 0px;
+    justify-content: center;
+  }
+
+  .trailer-header {
+    margin: 0px;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+  }
+
+  .trailer-button {
+    margin: 0px;
+    width: 100%;
+    font-size: 22px;
+  }
+  
+}

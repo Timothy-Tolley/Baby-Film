@@ -17,31 +17,54 @@
 }
 
 .contact-header {
- width: 40%;
  align-self: flex-end;
  font-size: 40px;
  font-weight: 700;
- margin-right: 40px;
+ margin-right: 5%;
  margin-top: 40px;
  color: #336699;
  font-family: 'Montserrat', sans-serif;
  letter-spacing: 1px;
+ word-wrap: normal;
 }
 
 .contact-text-cont {
- width: 40%;
  align-self: flex-end;
- margin-right: 40px;
+ margin-right: 5%;
  margin-top: 20px;
  display: flex;
  flex-direction: column;
- font-size: 22px;
+ font-size: 18px;
+ word-wrap: normal;
 }
 
 .email-link {
   text-decoration: none;
+  word-wrap: normal;
 }
 
 .email-link:hover {
   color: #336699;
+}
+
+@media (max-width: 450px) {
+  .contact-container {
+    flex-direction: row-reverse;
+  }
+
+  .contact-content-cont {
+    width: 100%;
+  }
+
+  .contact-text-cont {
+    align-self: flex-start;
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .contact-header {
+    align-self: flex-start;
+    margin-left: 10px;
+    width: 100%;
+  }
 }

@@ -17,21 +17,47 @@
 }
 
 .synopsis-header {
-  width: 50%;
-  align-self: flex-end;
+  width: 100%;
+  align-self: center;
   font-size: 40px;
   font-weight: 700;
-  margin-right: 40px;
+  margin-right: 5%;
   margin-top: 120px;
   color: #336699;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
+  text-align: end;
+  padding-right: 12%;
 }
 
 .synopsis-text {
   width: 50%;
   align-self: flex-end;
   font-size: 17px;
-  margin-right: 40px;
+  margin-right: 5%;
   margin-top: 10px;
+}
+
+@media (max-width:450px) {
+  .about-container {
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+  .synopsis-header {
+    width: 100%;
+    align-self: flex-start;
+    margin-top: 200%;
+    margin-right: 0px;
+    margin-left: 10px;
+    color: white;
+  }
+  .synopsis-text {
+    width: 120%;
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 10px;
+    padding-right: 0px;
+    font-size: 16px;
+  }
 }

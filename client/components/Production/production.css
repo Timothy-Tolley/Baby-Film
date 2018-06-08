@@ -64,3 +64,18 @@
   font-family: 'Roboto Condensed', 'sans-serif';
   font-weight: lighter;
 }
+
+@media (max-width:450px) {
+  .production-container {
+    width: 100%;
+  }
+  .links-cont {
+    width: 60%;
+    margin: 10px;
+  }
+  .production-header {
+   color: white;
+   font-size: 35px;
+   margin: 10px;
+  }
+}

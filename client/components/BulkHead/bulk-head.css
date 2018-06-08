@@ -73,3 +73,36 @@
   border-color: black;
 }
 
+@media (max-width:450px) {
+  .bulk-head-container {
+    width: 100%;
+  }
+.top-box-cont {
+  justify-content: flex-end;
+}
+
+  .laurels-div {
+    margin-bottom: 100px;
+  }
+
+  .laurel {
+    max-width: 60%;
+    margin-bottom: 0px;
+  }
+  .logo-div {
+    width: 70%;
+  }
+  .header-text {
+    width: 70%;
+    font-size: 16px;
+  }
+  .link-trailer-cont {
+    width: 70%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+  }
+
+  .trailer-link {
+    font-size: 18px;
+  }
+}
