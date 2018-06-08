@@ -47,3 +47,15 @@
   margin-left: 5%;
   width: 90%;
 }
+
+@media (max-width: 450px) {
+  .producer-text-cont {
+  flex-direction: column;
+  align-self: center; 
+  }
+  
+  .producer-image {
+    width: 100%;
+    align-self: center;
+  }
+}
