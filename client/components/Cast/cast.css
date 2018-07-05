@@ -11,20 +11,22 @@
 }
 
 .crew-container {
-  padding: 40px;
-  width: 40%;
+  padding: 30px;
+  width: 45%;
   align-content: center;
   text-align: left;
 
 }
 
 .cast-container{
-  padding: 40px;
-  width: 40%;
+  padding: 30px;
+  width: 45%;
   text-align: right;
 
 }
 
 .cast-text {
   color: black;
+  margin: 3px;
+  font-size: 13px;
 }
