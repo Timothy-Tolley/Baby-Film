@@ -1,6 +1,6 @@
 .production-container {
    background-image: url('/images/isabelle.png');
-   height: 750px; 
+   min-height: 100vh; 
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;

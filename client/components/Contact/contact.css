@@ -1,6 +1,6 @@
 .contact-container {
   background-image: url('/images/isabelle-dinner.jpg');
-  height: 750px; 
+  height: 100vh; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
