@@ -18,13 +18,13 @@ class Contact extends React.Component {
           <div className = 'contact-text-cont'>
             <p>MARION PREBBLE </p>
 
-            <p className = 'email-link-text'>
-             E:
-              <a href="mailto:marionshortt@gmail.com" className = 'email-link'> marionshortt@gmail.com
-              </a>
-            </p>
+            <a href="mailto:marionshortt@gmail.com" className = 'email-link'>
+              marionshortt@gmail.com
+            </a>
 
-            <p> M: (+64) 22 1559 027</p>
+            <a href="tel:+64221559027" className = 'phone-link'>
+              +64 22 1559 027
+            </a>
           </div>
         </div>
       </div>

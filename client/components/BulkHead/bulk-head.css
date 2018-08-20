@@ -71,6 +71,12 @@
   border-color: black;
 }
 
+@media (max-width:550px) {
+  .trailer-link {
+    font-size: 16px;
+  }
+}
+
 @media (max-width:450px) {
   .bulk-head-container {
     width: 100%;
@@ -102,5 +108,11 @@
 
   .trailer-link {
     font-size: 18px;
+  }
+}
+
+@media (max-width:350px) {
+  .trailer-link {
+    font-size: 12px;
   }
 }

@@ -39,12 +39,21 @@
 .email-link {
   text-decoration: none;
   word-wrap: normal;
+  padding-top: 2%;
 }
 
 .email-link:hover {
   color: #336699;
 }
 
+.phone-link {
+  text-decoration: none;
+  padding-top: 2%;
+}
+
+.phone-link:hover {
+  color: #336699;
+}
 @media (max-width: 450px) {
   .contact-container {
     flex-direction: row-reverse;
@@ -64,5 +73,12 @@
     align-self: flex-start;
     margin-left: 10px;
     width: 100%;
+    color: white;
+  }
+}
+
+@media (max-width:350px) {
+  .contact-text-cont{
+    font-size: 16px;
   }
 }
