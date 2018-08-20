@@ -4,6 +4,9 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
   background-size: cover;
   display: flex;
   flex-direction: row;
@@ -57,6 +60,7 @@
 @media (max-width: 450px) {
   .contact-container {
     flex-direction: row-reverse;
+    background-attachment:scroll
   }
 
   .contact-content-cont {

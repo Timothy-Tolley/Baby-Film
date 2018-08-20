@@ -4,8 +4,10 @@
  background-attachment: fixed;
  background-position: center;
  background-repeat: no-repeat;
+ -webkit-background-size: cover; 
+ -moz-background-size: cover; 
+ -o-background-size: cover; 
  background-size: cover;
-
  display: flex;
  flex-direction: row;
 }
@@ -39,6 +41,7 @@
   .about-container {
     width: 100%;
     flex-direction: row-reverse;
+    background-attachment:scroll
   }
   .synopsis-header {
     width: 100%;
