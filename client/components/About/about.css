@@ -1,5 +1,5 @@
 .about-container {
- background-image: url('/images/leisha.png');
+ background-image: url('/images/leisha.jpg');
  height: 100vh; 
  background-attachment: fixed;
  background-position: center;
@@ -17,14 +17,11 @@
 }
 
 .synopsis-header {
-  width: 100%;
-  align-self: center;
+  align-self: right;
   font-size: 40px;
   font-weight: 700;
-  margin-right: 5%;
   margin-top: 120px;
   color: #336699;
-  /* font-family: 'Montserrat', sans-serif; */
   letter-spacing: 1px;
   text-align: end;
   padding-right: 12%;

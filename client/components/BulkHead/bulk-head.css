@@ -1,5 +1,5 @@
 .bulk-head-container {
-  background-image: url('/images/isabelle-looks-at-connor.png');
+  background-image: url('/images/isabelle-looks-at-connor.jpg');
   height: 100vh; 
   background-attachment: fixed;
   background-position: center;
@@ -44,7 +44,6 @@
   width: 50%;
   align-self: flex-end;
   font-size: 18px;
-  /* font-family: 'Montserrat', sans-serif; */
 }
 
 .link-trailer-cont {

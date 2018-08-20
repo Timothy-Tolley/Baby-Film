@@ -9,7 +9,7 @@ class Producers extends React.Component {
         <h2 className = 'producer-header'> Producer Biographies </h2>
         <div className = 'producers-row'>
           <div className = 'producer-text-cont'>
-            <img src = '/images/ruby.png' className = 'producer-image'/>
+            <img src = '/images/ruby.jpg' className = 'producer-image'/>
             <div className='producer-text-row' >
               <h2 className = 'producer-name'> Ruby Reihana-Wilson </h2>
               <br/>
@@ -19,7 +19,7 @@ class Producers extends React.Component {
             </div>
           </div>
           <div className = 'producer-text-cont'>
-            <img src = '/images/marion.png' className = 'producer-image'/>
+            <img src = '/images/marion.jpg' className = 'producer-image'/>
             <div className='producer-text-row' >
               <h2 className = 'producer-name'> Marion Prebble </h2>
               <br/>

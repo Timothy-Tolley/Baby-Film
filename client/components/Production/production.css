@@ -1,5 +1,5 @@
 .production-container {
-   background-image: url('/images/isabelle.png');
+   background-image: url('/images/isabelle.jpg');
    min-height: 100vh; 
    background-attachment: fixed;
    background-position: center;
@@ -34,7 +34,6 @@
   margin-left: 40px;
   margin-top: 40px;
   color: #336699;
-  /* font-family: 'Montserrat', sans-serif; */
   letter-spacing: 1px;
 }
 
