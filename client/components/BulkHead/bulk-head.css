@@ -83,8 +83,14 @@
 @media (max-width:450px) {
   .bulk-head-container {
     width: 100%;
-    background-attachment:scroll
   }
+
+  @supports (-webkit-overflow-scrolling: touch) {
+    .bulk-head-container {
+      background-attachment:scroll
+    }
+  }
+
 .top-box-cont {
   justify-content: flex-end;
 }

@@ -60,11 +60,19 @@
 @media (max-width: 450px) {
   .contact-container {
     flex-direction: row-reverse;
-    background-attachment:scroll
+    background-position: 10%;
+  }
+
+  @supports (-webkit-overflow-scrolling: touch) {
+    .contact-container {
+      background-attachment:scroll
+    }
   }
 
   .contact-content-cont {
     width: 100%;
+    justify-content: flex-end;
+    padding-bottom: 10%;
   }
 
   .contact-text-cont {

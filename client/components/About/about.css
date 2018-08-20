@@ -41,8 +41,14 @@
   .about-container {
     width: 100%;
     flex-direction: row-reverse;
-    background-attachment:scroll
   }
+
+  @supports (-webkit-overflow-scrolling: touch) {
+    .about-container {
+      background-attachment:scroll
+    }
+  }
+
   .synopsis-header {
     width: 100%;
     align-self: flex-start;

@@ -69,8 +69,13 @@
 @media (max-width:450px) {
   .production-container {
     width: 100%;
-    background-attachment:scroll
   }
+  @supports (-webkit-overflow-scrolling: touch) {
+    .production-container {
+      background-attachment:scroll
+    }
+  }
+
   .links-cont {
     width: 60%;
     margin: 10px;

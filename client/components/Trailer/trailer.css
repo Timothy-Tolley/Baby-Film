@@ -71,9 +71,11 @@
 }
 
 @media (max-width:450px) {
-  .trailer-container {
+  @supports (-webkit-overflow-scrolling: touch) {
+    .trailer-container {
     background-attachment:scroll
   }
+}
 
   .trailer-main {
     display: flex;
