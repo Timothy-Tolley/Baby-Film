@@ -8,8 +8,12 @@ class BulkHead extends React.Component {
       <div className = 'bulk-head-container'>
         <div className = 'top-box-cont'>
           <div className = 'laurels-div'>
-            <img src = '/images/best-actor-laurel.png' alt = 'best actor laurel' className = 'laurel' />
-            <img src = '/images/official-selection-laurel.png' alt = 'official selection laurel' className = 'laurel'/>
+            <img src = '/laurels/sms-best-actor.png' alt = 'SMS Best Actor Laurel' className = 'laurel laurel1' />
+            <img src = '/laurels/kerry-laurel.png' alt = 'Kerry Official Selection Laurel' className = 'laurel laurel2'/>
+            <img src = '/laurels/sms-official-selection.png' alt = 'SMS Official Selection Laurel' className = 'laurel laurel3'/>
+            <img src = '/laurels/cinevue-laurel.png' alt = 'Cinevue Laurel' className = 'laurel laurel4'/>
+            <img src = '/laurels/dub-laurel.png' alt = 'DUB Laurel' className = 'laurel laurel5'/>
+            <img src = '/laurels/retff-laurel.png' alt = 'RETFF Laurel' className = 'laurel laurel6'/>
           </div>
         </div>
         <div className = 'top-box-cont'>

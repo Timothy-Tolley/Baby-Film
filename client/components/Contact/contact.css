@@ -57,6 +57,47 @@
 .phone-link:hover {
   color: #336699;
 }
+
+.contact-form {
+  display:flex;
+  flex-direction: column;
+}
+
+.inputField::-webkit-input-placeholder {
+  font-family: 'Lato', sans-serif;
+ }
+ .inputField:-moz-placeholder {
+  font-family: 'Lato', sans-serif;
+ }
+ .inputField:-ms-input-placeholder {
+  font-family: 'Lato', sans-serif;
+ }
+
+.inputField {
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3%;
+  color: grey;
+  margin-bottom: 3px;
+  width: 20vw;
+}
+
+#text-area {
+  height: 40px;
+  width: calc(20vw - 2px);
+  resize: vertical;
+}
+
+.formButton {
+  border-width: 3px;
+  border-color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 3%;
+  color: grey;
+  width: 20%;
+}
 @media (max-width: 450px) {
   .contact-container {
     flex-direction: row-reverse;
@@ -86,6 +127,29 @@
     margin-left: 10px;
     width: 100%;
     color: white;
+  }
+
+  .inputField {
+    color: white;
+    width: 30vw;
+  }
+
+  #text-area {
+    width: calc(30vw - 2px);
+  }
+
+  .inputField::-webkit-input-placeholder {
+    color: white;
+   }
+   .inputField:-moz-placeholder {
+    color: white;
+   }
+   .inputField:-ms-input-placeholder {
+    color: white;
+   }
+
+   .formButton {
+    color:white;
   }
 }
 

@@ -2,9 +2,25 @@
   font-size: 0.6rem;
   text-align: center;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center
 }
 
 .footer-text {
   text-justify: distribute;
   padding: 10px;
+}
+
+.NZFC-logo {
+  max-width: 10%;
+  max-height: 100px;
+  padding: 3px;
+}
+
+.Genera-logo {
+  width: 10%;
+  height: auto;
+  padding: 3px;
 }
