@@ -17,9 +17,12 @@ class Contact extends React.Component {
           </ScrollableAnchor>
           <div className = 'contact-text-cont'>
             <form action='https://formspree.io/marionshortt@gmail.com' method='POST' className = 'contact-form'>
-              <input type='text' name='Name' placeholder = 'Name' className = 'inputField'/>
-              <input type='email' name='Return Email' placeholder = 'Email' className = 'inputField'/>
-              <textarea type='text' name='Message' className = 'inputField' placeholder='Your Message' id = 'text-area'/>
+              <label class='form-label'> NAME: </label>
+              <input type='text' name='Name'  className = 'inputField'/>
+              <label class='form-label'> EMAIL: </label>
+              <input type='email' name='Return Email' className = 'inputField'/>
+              <label class='form-label'> MESSAGE: </label>
+              <textarea type='text' name='Message' className = 'inputField' id = 'text-area'/>
               <button type='submit' value='Send' className = 'formButton'>
                 Send
               </button>

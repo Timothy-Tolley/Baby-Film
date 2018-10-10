@@ -142,7 +142,7 @@
 
   .bulk-text-cont {
     width: 100%;
-    height: 95%;
+    height: 100%;
     justify-content: flex-end;
     align-content: center;
   }
@@ -155,7 +155,8 @@
   .link-trailer-cont {
     align-self: center;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    margin-bottom: 20px;
   }
 
   .logo-div {
@@ -178,7 +179,7 @@
 @media (max-width:450px) {
 
   .bulk-text-cont {
-    height: 105%;
+    height: 100%;
   }
   .bulk-head-container {
     width: 100%;
@@ -204,7 +205,7 @@
   .link-trailer-cont {
     width: 70%;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 35px;
   }
 
   .trailer-link {
