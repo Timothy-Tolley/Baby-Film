@@ -6,17 +6,17 @@ class BulkHead extends React.Component {
   render () {
     return (
       <div className = 'bulk-head-container'>
-        <div className = 'top-box-cont'>
-          <div className = 'laurels-div'>
-            <img src = '/laurels/sms-best-actor.png' alt = 'SMS Best Actor Laurel' className = 'laurel laurel1' />
-            <img src = '/laurels/kerry-laurel.png' alt = 'Kerry Official Selection Laurel' className = 'laurel laurel2'/>
-            <img src = '/laurels/sms-official-selection.png' alt = 'SMS Official Selection Laurel' className = 'laurel laurel3'/>
-            <img src = '/laurels/cinevue-laurel.png' alt = 'Cinevue Laurel' className = 'laurel laurel4'/>
-            <img src = '/laurels/dub-laurel.png' alt = 'DUB Laurel' className = 'laurel laurel5'/>
-            <img src = '/laurels/retff-laurel.png' alt = 'RETFF Laurel' className = 'laurel laurel6'/>
-          </div>
+        <div className = 'top-box-cont laurels-div-cont'>
+            <div className = 'laurels-div'>
+              <img src = '/laurels/sms-best-actor.png' alt = 'SMS Best Actor Laurel' className = 'laurel laurel1' />
+              <img src = '/laurels/kerry-laurel.png' alt = 'Kerry Official Selection Laurel' className = 'laurel laurel2'/>
+              <img src = '/laurels/sms-official-selection.png' alt = 'SMS Official Selection Laurel' className = 'laurel laurel3'/>
+              <img src = '/laurels/cinevue-laurel.png' alt = 'Cinevue Laurel' className = 'laurel laurel4'/>
+              <img src = '/laurels/dub-laurel.png' alt = 'DUB Laurel' className = 'laurel laurel5'/>
+              <img src = '/laurels/retff-laurel.png' alt = 'RETFF Laurel' className = 'laurel laurel6'/>
+            </div>
         </div>
-        <div className = 'top-box-cont'>
+        <div className = 'top-box-cont bulk-text-cont'>
           <div className = 'logo-div'>
             <img src = '/images/baby-logo-white.png' alt = 'Baby Logo' className = 'baby-logo-top-box' />
           </div>

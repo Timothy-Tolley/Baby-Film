@@ -3,6 +3,7 @@
   height: 100vh; 
   background-attachment: fixed;
   background-position: center;
+  background-position-x: 5%;
   background-repeat: no-repeat;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
@@ -65,26 +66,29 @@
 
 .inputField::-webkit-input-placeholder {
   font-family: 'Lato', sans-serif;
+  color: white;
  }
  .inputField:-moz-placeholder {
   font-family: 'Lato', sans-serif;
+  color: white;
  }
  .inputField:-ms-input-placeholder {
   font-family: 'Lato', sans-serif;
+  color: white;
  }
 
 .inputField {
   border: 1px solid white;
   background-color: rgba(255, 255, 255, 0.4);
+  color: white;
   border-radius: 3%;
-  color: grey;
   margin-bottom: 3px;
   width: 20vw;
 }
 
 #text-area {
   height: 40px;
-  width: calc(20vw - 2px);
+  width: calc(20vw - 3px);
   resize: vertical;
 }
 
@@ -95,8 +99,8 @@
   border: 1px solid white;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 3%;
-  color: grey;
-  width: 20%;
+  color:white;
+  width: 50%;
 }
 @media (max-width: 450px) {
   .contact-container {
@@ -130,26 +134,11 @@
   }
 
   .inputField {
-    color: white;
     width: 30vw;
   }
 
   #text-area {
-    width: calc(30vw - 2px);
-  }
-
-  .inputField::-webkit-input-placeholder {
-    color: white;
-   }
-   .inputField:-moz-placeholder {
-    color: white;
-   }
-   .inputField:-ms-input-placeholder {
-    color: white;
-   }
-
-   .formButton {
-    color:white;
+    width: calc(30vw + 6px);
   }
 }
 

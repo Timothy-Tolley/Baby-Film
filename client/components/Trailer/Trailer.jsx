@@ -22,7 +22,7 @@ class Trailer extends React.Component {
     return (
       <div className = 'trailer-container'>
         <ScrollableAnchor id = {'teaser'}>
-          <div className = 'trailer-content-cont'>
+          <div className = 'trailer-content-cont trailer-modal'>
             <ModalVideo channel='vimeo' isOpen={this.state.isOpen} videoId='221048246' portrait={false} onClose={() => this.setState({isOpen: false})} />
           </div>
         </ScrollableAnchor>
@@ -34,6 +34,14 @@ class Trailer extends React.Component {
               Watch Now
             </p>
           </button>
+        </div>
+        <div className = 'laurels-div-teaser'>
+          <img src = '/laurels/sms-best-actor.png' alt = 'SMS Best Actor Laurel' className = 'laurel-teaser laurel1-teaser' />
+          <img src = '/laurels/kerry-laurel.png' alt = 'Kerry Official Selection Laurel' className = 'laurel-teaser laurel2-teaser'/>
+          <img src = '/laurels/sms-official-selection.png' alt = 'SMS Official Selection Laurel' className = 'laurel-teaser laurel3-teaser'/>
+          <img src = '/laurels/cinevue-laurel.png' alt = 'Cinevue Laurel' className = 'laurel-teaser laurel4-teaser'/>
+          <img src = '/laurels/dub-laurel.png' alt = 'DUB Laurel' className = 'laurel-teaser laurel5-teaser'/>
+          <img src = '/laurels/retff-laurel.png' alt = 'RETFF Laurel' className = 'laurel-teaser laurel6-teaser'/>
         </div>
       </div>
     )

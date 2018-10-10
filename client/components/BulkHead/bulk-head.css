@@ -3,6 +3,7 @@
   height: 100vh; 
   background-attachment: fixed;
   background-position: center;
+  background-position-x: 44%;
   background-repeat: no-repeat;
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
@@ -19,18 +20,26 @@
   flex-direction: column;
 }
 
-.laurels-div {
-  width: 100%;
-  height: 100%;
+.laurels-div-cont {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
+.laurels-div {
+  width: 100%;
+  height: 100%;
+  grid-row: 1 / 3;
+  grid-column: 1 / 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
 .laurel {
-  max-width: 80%;
+  max-width: 90%;
   align-self: center;
-  padding: 30px;
+  padding: 10px;
 }
 
 .laurel1 {
@@ -117,115 +126,60 @@
   border-color: black;
 }
 
-@media (max-width:700px) {
-  .laurels-div {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
-
-  .laurel1 {
-    grid-row: 3 / 4;
-    -ms-grid-row: 3;
-    grid-column: 1 / 2;
-    -ms-grid-column: 1;
-    padding: 5px;
-    max-width: 100%;
-  }
-  
-  .laurel2 {
-    grid-row: 3 / 4;
-    -ms-grid-row: 3;
-    grid-column: 2 / 3;
-    -ms-grid-column: 2;
-    padding: 5px;
-    max-width: 100%;
-  }
-
-  .laurel3 {
-    grid-row: 3 / 4;
-    -ms-grid-row: 3;
-    grid-column:  3 / 4;
-    -ms-grid-column: 3;
-    padding: 5px;
-    max-width: 100%;
-  }
-  
-  .laurel4 {
-    grid-row: 4 / 5;
-    -ms-grid-row: 4;
-    grid-column: 1 / 2;
-    -ms-grid-column: 1;
-    padding: 5px;
-    max-width: 100%;
-  }
-  .laurel5 {
-    grid-row: 4 / 5;
-    -ms-grid-row: 4;
-    grid-column: 2 / 3;
-    -ms-grid-column: 2;
-    padding: 5px;
-    max-width: 100%;
-  }
-  
-  .laurel6 {
-    grid-row: 4 / 5;
-    -ms-grid-row: 4;
-    grid-column: 3 / 4;
-    -ms-grid-column: 3;
-    padding: 5px;
-    max-width: 100%;
-  }
-}
 
 @media (max-width:550px) {
   .trailer-link {
     font-size: 16px;
   }
 
-  .laurel1 {
-    grid-row: 3 / 4;
-    -ms-grid-row: 3;
-    grid-column: 1 / 3;
-    padding: 5px;
-    max-width: 100%;
-  }
-  
-  .laurel2 {
-    grid-row: 3 / 4;
-    -ms-grid-row: 3;
-    grid-column: 3 / 5;
-    padding: 5px;
-    max-width: 100%;
-  }
-
-  .laurel3 {
-    display:none;
-  }
-  
-  .laurel4 {
-    grid-row: 4 / 5;
-    -ms-grid-row: 4;
-    grid-column: 3 / 5;
-    padding: 5px;
-    max-width: 100%;
-  }
-  .laurel5 {
-    grid-row: 4 / 5;
-    -ms-grid-row: 4;
-    grid-column: 1 / 3;
-    padding: 5px;
-    max-width: 100%;
-  }
-  
-  .laurel6 {
+  .laurels-div {
     display: none;
   }
+
+  .laurels-div-cont {
+    display: none;
+  }
+
+  .bulk-text-cont {
+    width: 100%;
+    height: 95%;
+    justify-content: flex-end;
+    align-content: center;
+  }
+  
+  .header-text {
+    align-self: center;
+    text-align: center;
+  }
+
+  .link-trailer-cont {
+    align-self: center;
+    display: flex;
+    justify-content: center
+  }
+
+  .logo-div {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .trailer-link {
+    align-self: center;
+    width: 50%;
+  }
+
+  .bulk-head-container {
+    background-position-x: 45.5%;
+  }
+
 }
 
 @media (max-width:450px) {
+
+  .bulk-text-cont {
+    height: 105%;
+  }
   .bulk-head-container {
     width: 100%;
   }
