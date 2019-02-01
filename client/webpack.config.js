@@ -30,9 +30,6 @@ module.exports = {
       }
     ]
   },
-  externals: {
-    // Use external version of React
-  },
   resolve: {
     extensions: ['.js', '.jsx']
   },
