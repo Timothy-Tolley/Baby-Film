@@ -26,24 +26,24 @@ class Gallery extends React.Component {
   render () {
     const images = [
       {
-        original: '/images/isabelle.jpg',
-        thumbnail: '/images/isabelle-thumb.jpg'
+        original: '/film-stills/isabelle.jpg',
+        thumbnail: '/film-stills/isabelle-thumb.jpg'
       },
       {
-        original: '/images/isabelle-looks-at-connor.jpg',
-        thumbnail: '/images/isabelle-looks-at-connor-thumb.jpg'
+        original: '/film-stills/isabelle-looks-at-connor.jpg',
+        thumbnail: '/film-stills/isabelle-looks-at-connor-thumb.jpg'
       },
       {
-        original: 'images/leisha-remembering-connor.jpg',
-        thumbnail: 'images/leisha-remembering-connor-thumb.jpg'
+        original: '/film-stills/leisha-remembering-connor.jpg',
+        thumbnail: '/film-stills/leisha-remembering-connor-thumb.jpg'
       },
       {
-        original: 'images/leisha.jpg',
-        thumbnail: 'images/leisha-thumb.jpg'
+        original: '/film-stills/leisha.jpg',
+        thumbnail: '/film-stills/leisha-thumb.jpg'
       },
       {
-        original: 'images/we-dont-know-you.jpg',
-        thumbnail: 'images/we-dont-know-you-thumb.jpg'
+        original: '/film-stills/we-dont-know-you.jpg',
+        thumbnail: '/film-stills/we-dont-know-you-thumb.jpg'
       }
     ]
     return (

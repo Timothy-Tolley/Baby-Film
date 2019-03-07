@@ -1,0 +1,19 @@
+.gallery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery-header{
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.image-gallery {
+  width: 95%;
+  align-self: center;
+  padding: 5px;
+}

@@ -7,6 +7,7 @@ import Cast from '../Cast/Cast'
 import Gallery from '../Gallery/Gallery'
 import Director from '../Director/Director'
 import Producers from '../Producers/Producers'
+import BehindScenes from '../BehindScenes/BehindScenes'
 
 class Production extends React.Component {
   constructor (props) {
@@ -16,7 +17,8 @@ class Production extends React.Component {
       director: false,
       producers: false,
       faqs: false,
-      gallery: false
+      gallery: false,
+      behind: false
     }
     this.onOpenModal = this.onOpenModal.bind(this)
     this.onCloseModal = this.onCloseModal.bind(this)
@@ -34,7 +36,9 @@ class Production extends React.Component {
       director: false,
       producers: false,
       faqs: false,
-      gallery: false})
+      gallery: false,
+      behind: false
+    })
   }
 
   render () {
@@ -58,7 +62,10 @@ class Production extends React.Component {
               FAQs
             </button>
             <button className = 'production-links production-button' value = 'gallery' onClick = {this.onOpenModal}>
-              Gallery
+              Film Stills
+            </button>
+            <button className='production-links production-button' value='behind' onClick={this.onOpenModal}>
+              Behind the Scenes
             </button>
             <a href="/docs/press-kit.pdf" download="baby-press-kit" className = 'press-kit-link'>
               <p className = 'production-links'> Download Press Kit </p>
@@ -78,6 +85,9 @@ class Production extends React.Component {
           </Modal>
           <Modal open={this.state.gallery} onClose={this.onCloseModal} center>
             <Gallery />
+          </Modal>
+          <Modal open={this.state.behind} onClose={this.onCloseModal} center>
+            <BehindScenes />
           </Modal>
         </div>
         <div className = 'production-content-cont'>

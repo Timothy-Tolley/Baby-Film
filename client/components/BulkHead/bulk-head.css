@@ -1,5 +1,5 @@
 .bulk-head-container {
-  background-image: url('/images/isabelle-looks-at-connor.jpg');
+  background-image: url('/film-stills/isabelle-looks-at-connor.jpg');
   height: 100vh; 
   background-attachment: fixed;
   background-position: center;
@@ -78,6 +78,19 @@
 
 .laurel6 {
   grid-row: 3 / 4;
+  -ms-grid-row: 3;
+  grid-column: 2 / 3;
+  -ms-grid-column: 2;
+}
+.laurel7 {
+  grid-row: 4 / 5;
+  -ms-grid-row: 3;
+  grid-column: 1 / 2;
+  -ms-grid-column: 1;
+}
+
+.laurel8 {
+  grid-row: 4 / 5;
   -ms-grid-row: 3;
   grid-column: 2 / 3;
   -ms-grid-column: 2;
